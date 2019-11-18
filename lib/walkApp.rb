@@ -6,7 +6,11 @@ class WalkApp
   end
 
   def go_north
-  @current_coordinates[1] += 1
+    @current_coordinates[1] += 1
+  end
+
+  def go_south
+    @current_coordinates[1] -= 1
   end
 end
 
