@@ -16,6 +16,10 @@ class WalkApp
   def go_east
     @current_coordinates[0] += 1
   end
+
+  def go_west
+    @current_coordinates[0] -= 1
+  end
 end
 
 person = WalkApp.new
