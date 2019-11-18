@@ -4,7 +4,6 @@ class WalkApp
     @current_coordinates = [0,0]
   end
 
-  def current_coordinates
-    @current_coordinates
-  end
+  attr_reader :current_coordinates
+
 end
