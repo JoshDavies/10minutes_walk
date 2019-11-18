@@ -1,5 +1,10 @@
 class WalkApp
+
+  def initialize
+    @current_coordinates = [0,0]
+  end
+
   def current_coordinates
-    [0,0]
+    @current_coordinates
   end
 end
