@@ -20,4 +20,10 @@ describe WalkApp do
       expect(person.current_coordinates).to eq([0,-1])
     end
   end
+  describe 'go_east' do
+    it 'changes the persons y coordinates negatively' do
+      person.go_east
+      expect(person.current_coordinates).to eq([1,0])
+    end
+  end
 end
