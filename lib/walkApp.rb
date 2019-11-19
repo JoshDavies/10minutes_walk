@@ -21,7 +21,3 @@ class WalkApp
     @current_coordinates[0] -= 1
   end
 end
-
-person = WalkApp.new
-person.go_north
-p person.current_coordinates
